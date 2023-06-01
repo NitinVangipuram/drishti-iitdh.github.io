@@ -12,8 +12,20 @@ include: ["_pages"]
 permalink: /:title/
 email: drishti@iitdh.ac.in
 
-# Authors
-authors:
+# Roles
+team:
+  subham:
+    display_name: "Subham Kumar"
+  om:
+    display_name: "Om Patil"
+    avatar: "assets/images/avatar-sal.png"
+    email: 200010036@iitdh.ac.in
+    web: https://modernoctave.github.io/
+    instagram: https://www.instagram.com/om.s.patil/
+    linkedin: https://www.linkedin.com/in/om-patil-1b1b3a1a0/
+    description: "Author of Memoirs, a Bootstrap Medium styled template available for Jekyll. You are currently previewing Jekyll template demo."
+  shahil:
+    display_name: "Shahil"
   sal:
     name: Sal
     display_name: Sal
@@ -30,6 +42,17 @@ authors:
     web: https://www.wowthemes.net
     twitter: https://twitter.com/wowthemesnet
     description: "Write a short description of the author here. You are currently previewing Memoirs demo, a Jekyll template compatible with Github pages."
+
+roles:
+  - role: Chief Editor
+    members:
+      - om
+      - subham
+      - shahil
+  - role: Editor
+    members:
+      - john
+      - sal
 
 # Plugins
 plugins:
