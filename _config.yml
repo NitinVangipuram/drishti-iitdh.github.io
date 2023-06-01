@@ -5,9 +5,9 @@ description: "All things IIT Dharwad!"
 logo: 'assets/images/logo-dark.png'
 favicon: 'assets/images/logo-dark.png'
 baseurl: ''
-google_analytics: ''
-disqus: ''
-mailchimp-list: ''
+# google_analytics: ''
+# disqus: ''
+# mailchimp-list: ''
 include: ["_pages"]
 permalink: /:title/
 email: drishti@iitdh.ac.in
@@ -44,12 +44,12 @@ team:
     description: "Write a short description of the author here. You are currently previewing Memoirs demo, a Jekyll template compatible with Github pages."
 
 roles:
-  - role: Chief Editor
+  - role: Chief Editors
     members:
       - om
       - subham
       - shahil
-  - role: Editor
+  - role: Editors
     members:
       - john
       - sal
