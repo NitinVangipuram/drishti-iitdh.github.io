@@ -1,8 +1,8 @@
 # Site
 name: "Drishti"
 title: "Drishti"
-description: "The Official Independent Student Media Body of IIT Dharwad which encompasses all things IIT Dharwad."
-logo: 'assets/images/logo.png'
+description: "All things IIT Dharwad!"
+logo: 'assets/images/logo-dark.png'
 favicon: 'assets/images/logo-dark.png'
 baseurl: ''
 google_analytics: ''
