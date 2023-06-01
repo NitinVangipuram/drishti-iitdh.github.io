@@ -71,13 +71,13 @@
     ================================================== -->
    
     <a class="navbar-brand" href="{{ site.baseurl }}/">
-        <img src="{{ site.baseurl }}/{{ site.logo }}" alt="{{ site.name }}">
+        <img src="{{ site.baseurl }}/{{ site.logo-full }}" alt="{{ site.name }}">
     </a>  
    
 
     <!-- Site Tag
     ================================================== -->
-    {% if page.url == '/' %}
+    {% if page.url == '/' and site.description %}
         <p class="sitetag">
             {{ site.description }}
         </p>
@@ -110,7 +110,7 @@
                 <a href="https://www.instagram.com/{{site.instagram}}" target="_blank"><i class="fab fa-instagram fa-2x"></i></a>
             </div>
             <div class="col-2 col-sm-1">
-                <a href="https://www.linkedin.com/company/{{site.linkedin}}" target="_blank"><i class="fab fa-linkedin fa-2x"></i></a>
+                <a href="https://www.linkedin.com/company/{{site.link}}" target="_blank"><i class="fab fa-linkedin fa-2x"></i></a>
             </div>
         </div>
     </div>
