@@ -11,6 +11,8 @@ baseurl: ''
 include: ["_pages"]
 permalink: /:title/
 email: drishti@iitdh.ac.in
+instagram: drishti.iitdh
+linkedin: 
 
 # Roles
 team:
