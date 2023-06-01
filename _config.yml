@@ -7,7 +7,7 @@ logo-full: 'assets/images/logo-dark-full.png'
 favicon: 'assets/images/logo-dark.png'
 baseurl: ''
 # google_analytics: ''
-# disqus: ''
+disqus: 'drishti-iitdh'
 # mailchimp-list: ''
 include: ["_pages"]
 permalink: /:title/
