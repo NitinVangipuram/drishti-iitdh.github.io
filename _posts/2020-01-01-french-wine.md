@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "French Wine has to compete with many new world wines"
-authors: [john]
+authors: [varshitha, mahesh]
 categories: [ Lifestyle ]
 tags: [France]
 image: assets/images/5.jpg

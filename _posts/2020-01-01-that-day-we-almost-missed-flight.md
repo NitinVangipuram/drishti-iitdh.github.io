@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "That day when we almost missed our flight"
-authors: [sal]
+authors: [lavanya, upo, atharva]
 categories: [ Travel, Lifestyle ]
 image: assets/images/17.jpg
 ---

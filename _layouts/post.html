@@ -14,7 +14,7 @@ post_class: post-template
             {% for id in page.authors %}
                 {% assign author = site.team[id] %}
                 {% if author.avatar %}
-                <img class="author-thumb" src="{{site.baseurl}}/{{ author.avatar }}" alt="{{ author.display_name }}">
+                <img class="author-thumb" src="{{site.baseurl}}/assets/images/team/{{ author.avatar }}" alt="{{ author.display_name }}">
                 {% else %}
                 <img class="author-thumb" src="{{site.baseurl}}/assets/images/avatar.png" alt="{{ author.display_name }}">
                 {% endif %}
@@ -23,7 +23,7 @@ post_class: post-template
         <div>
         Written by
         {% for author in page.authors %}
-            {{ site.team[author].display_name -}}
+            {{ site.team[author].short_name -}}
             {% if forloop.rindex0 > 1 %},{% endif %}
             {% if forloop.rindex0 == 1 %}&{% endif %}
         {% endfor %}

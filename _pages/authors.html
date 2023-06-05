@@ -16,7 +16,7 @@ comments: false
         <div class="row">
             <div class="wrapavname col-md-3 text-center">
                 {% if member.avatar %}
-                <img  class="author-thumb" src="{{site.baseurl}}/{{ member.avatar }}" alt="{{ member.display_name }}">
+                <img  class="author-thumb" src="{{site.baseurl}}/assets/images/team/{{ member.avatar }}" alt="{{ author.display_name }}">
                 {% else %}
                 <img  class="author-thumb" src="{{site.baseurl}}/assets/images/avatar.png" alt="{{ member.display_name }}">
                 {% endif %}
@@ -28,7 +28,7 @@ comments: false
                     {% endif %}
 
                     {% if member.twitter %}
-                        <a target="_blank" class="d-inline-block mx-1 text-dark" href="{{ member.twitter }}"><i class="fab fa-twitter"></i></a>
+                        <a target="_blank" class="d-inline-block mx-1 text-dark" href="https://twitter.com/{{ member.twitter }}"><i class="fab fa-twitter"></i></a>
                     {% endif %}
 
                     {% if member.instagram %}

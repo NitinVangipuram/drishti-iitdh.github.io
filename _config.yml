@@ -15,47 +15,118 @@ email: drishti@iitdh.ac.in
 instagram: drishti.iitdh
 linkedin: 
 
-# Roles
+# Team
 team:
   subham:
-    display_name: "Subham Kumar"
+    display_name: Subham Kumar
+    short_name: Subham
+    avatar:
+    email: 200020047@iitdh.ac.in
   om:
-    display_name: "Om Patil"
-    avatar: "assets/images/avatar-sal.png"
+    display_name: Om Patil
+    short_name: Om
+    avatar: om.jpg
     email: 200010036@iitdh.ac.in
     web: https://modernoctave.github.io/
     instagram: om.s.patil
     linkedin: om-patil-032915204
-    description: "Author of Memoirs, a Bootstrap Medium styled template available for Jekyll. You are currently previewing Jekyll template demo."
+    description: Programmer, Roboticist, Linux Enthusiast, and an Aspiring ML Researcher but above all a journalist at heart!
   shahil:
-    display_name: "Shahil"
-  sal:
-    name: Sal
-    display_name: Sal
-    avatar: 'assets/images/avatar-sal.png'
-    email: wowthemesnet@gmail.com
-    web: https://www.wowthemes.net/donate/
-    twitter: https://twitter.com/wowthemesnet
-    description: "Author of Memoirs, a Bootstrap Medium styled template available for Jekyll. You are currently previewing Jekyll template demo."
-  john:
-    name: John
-    display_name: John    
-    avatar: 'assets/images/avatar.png'
-    email: wowthemesnet@gmail.com
-    web: https://www.wowthemes.net
-    twitter: https://twitter.com/wowthemesnet
-    description: "Write a short description of the author here. You are currently previewing Memoirs demo, a Jekyll template compatible with Github pages."
+    display_name: Shahil Patel
+    short_name: Shahil
+    avatar:
+    email: 200010039@iitdh.ac.in
+  atharva:
+    display_name: Atharva Virendra Tijare
+    short_name: Atharva
+    avatar: atharva.jpg
+    email: atharvatijare04@gmail.com
+    instagram: atharva.tijare
+    linkedin: atharva-virendra-tijare-b0a926258
+  sid:
+    display_name: Siddhartha Prasad
+    short_name: Sid
+    avatar: siddhartha.jpg
+    email: 210030033@iitdh.ac.in
+    instagram: siddhartha_pd
+  mahesh:
+    display_name: Mahesh Krishnam
+    short_name: Mahesh
+    avatar: mahesh.webp
+    email: 220120011@iitdh.ac.in
+    instagram: krishnam_mahesh
+    linkedin: mahesh-krishnam-a8a0b422b
+    twitter: Krishnam_Mahesh
+    description: This is Mahesh Krishnam from Patna, Bihar. Exploring the infinite possibilities.
+  yash:
+    display_name: Yash Satish Kute 
+    short_name: Yash
+    avatar: yash.jpg
+    email: yashkute762@gmail.com
+    instagram: yash2805k
+    linkedin: yash-kute-3714aa253
+    description: "Hello Peeps ! This is Yash . I love controversies and scoops and thats why Im here. I execute plans for my media body (Executive Member).Wanna play basketball?"
+  supriya:
+    display_name: Supriya H
+    short_name: Supriya
+    avatar: supriya.jpg
+    email: 210020054@iitdh.ac.in
+    instagram: sup_27__
+    linkedin: Supriya H
+    description: I'm a member of executive team. You can reach me out anytime, I can be your voice.
+  varshitha:
+    display_name: Hema Varshitha Bandi
+    short_name: Varshitha
+    avatar: varshitha.jpg
+    email: 210020005@iitdh.ac.in
+    instagram: varshitha.bandi
+    linkedin: Hema Varshitha Bandi
+    description: Hello! I'm Varshitha, a member of the content team at Drishti who is enthusiastic about producing engaging and informative content.
+  pushpa:
+    display_name: Pushpa Parvathi Battina
+    short_name: Pushpa
+    avatar: pushpa.jpg
+    email: 210010009@iitdh.ac.in
+    instagram: pushpa_battina04
+    linkedin: parvathi-battina
+    description: Hello, I'm Pushpa, a Content Team Member, with a passion for writing and creating captivating and engaging content for the club.
+  upo:
+    display_name: Upakramanika
+    short_name: Upo
+    avatar: upo.png
+    email: upakramanika@gmail.com
+    instagram: _thequestionmark_
+    linkedin: upakramanika-bishnu-339901254
+    description: A self taught digital artist with a keen interest in learning all about design.
+  lavanya:
+    display_name: Lavanya Shende
+    short_name: Lavanya
+    avatar: lavanya.jpg
+    email: 220120022@iitdh.ac.in
+    instagram: lavanya_shende
+    linkedin: shende-lavanya-jayant-85a870258
+    description: Hi from an executive member. Raising voices as a part of this team. Good with racquet. Will meet you on the dance floor.
 
+# Roles
 roles:
   - role: Chief Editors
     members:
-      - om
       - subham
+      - om
       - shahil
   - role: Editors
     members:
-      - john
-      - sal
+      - pushpa
+      - varshitha
+      
+      - supriya
+      - yash
+      - lavanya
+
+      - sid
+      - atharva
+      - mahesh
+      - upo
 
 # Plugins
 plugins:

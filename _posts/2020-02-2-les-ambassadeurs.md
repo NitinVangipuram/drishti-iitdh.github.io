@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Les Ambassadeurs, the first Restaurant we Visited in Paris"
-authors: [ om, shahil, sal ]
+authors: [ om, shahil, lavanya ]
 categories: [ Lifestyle ]
 tags: [ France ]
 image: assets/images/2.jpg

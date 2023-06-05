@@ -244,6 +244,8 @@ img, img:hover {
     align-items:center;
     .author-thumb {
         width:40px;
+        aspect-ratio: 1;
+        object-fit: cover;
         border-radius:50%;
         margin-right: 7px;
     }
@@ -423,6 +425,8 @@ img, img:hover {
 .entry-header {
     .author-thumb {
         width:50px;
+        aspect-ratio: 1;
+        object-fit: cover;
         border-radius:50%;
         margin-right:10px;
         border:2px solid darken($primary,20%);
@@ -436,7 +440,9 @@ img, img:hover {
         font-size:16px;
     }
     .author-thumb {
-        width:70px;
+        width: 90px;
+        aspect-ratio: 1;
+        object-fit: cover;
         border-radius:50%;
         border:2px solid darken($primary,20%);
         padding:2px;
