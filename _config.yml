@@ -1,7 +1,7 @@
 # Site
 name: "Drishti"
 title: "Drishti"
-description: ""  
+bio: ""  
 logo: 'assets/images/logo-dark.png'
 logo-full: 'assets/images/logo-dark-full.png'
 favicon: 'assets/images/logo-dark.png'
@@ -20,25 +20,29 @@ team:
   subham:
     display_name: Subham Kumar
     short_name: Subham
+    sub_role: Overall Coordinator, Executive Team
     avatar:
     email: 200020047@iitdh.ac.in
   om:
     display_name: Om Patil
     short_name: Om
+    sub_role: Content Team
     avatar: om.jpg
     email: 200010036@iitdh.ac.in
     web: https://modernoctave.github.io/
     instagram: om.s.patil
     linkedin: om-patil-032915204
-    description: Programmer, Roboticist, Linux Enthusiast, and an Aspiring ML Researcher but above all a journalist at heart!
+    bio: Programmer, Roboticist, Linux Enthusiast, and an Aspiring ML Researcher but above all a journalist at heart!
   shahil:
     display_name: Shahil Patel
     short_name: Shahil
+    sub_role: Design Team
     avatar:
     email: 200010039@iitdh.ac.in
   atharva:
     display_name: Atharva Virendra Tijare
     short_name: Atharva
+    sub_role: Design Team
     avatar: atharva.jpg
     email: atharvatijare04@gmail.com
     instagram: atharva.tijare
@@ -46,66 +50,74 @@ team:
   sid:
     display_name: Siddhartha Prasad
     short_name: Sid
+    sub_role: Design Team
     avatar: siddhartha.jpg
     email: 210030033@iitdh.ac.in
     instagram: siddhartha_pd
   mahesh:
     display_name: Mahesh Krishnam
     short_name: Mahesh
+    sub_role: Design Team
     avatar: mahesh.webp
     email: 220120011@iitdh.ac.in
     instagram: krishnam_mahesh
     linkedin: mahesh-krishnam-a8a0b422b
     twitter: Krishnam_Mahesh
-    description: This is Mahesh Krishnam from Patna, Bihar. Exploring the infinite possibilities.
+    bio: From Patna, Bihar. Exploring the infinite possibilities.
   yash:
     display_name: Yash Satish Kute 
     short_name: Yash
+    sub_role: Executive Team
     avatar: yash.jpg
     email: yashkute762@gmail.com
     instagram: yash2805k
     linkedin: yash-kute-3714aa253
-    description: "Hello Peeps ! This is Yash . I love controversies and scoops and thats why Im here. I execute plans for my media body (Executive Member).Wanna play basketball?"
+    bio: "Hello Peeps! I love controversies and scoops and thats why I'm here! Wanna play basketball?"
   supriya:
     display_name: Supriya H
     short_name: Supriya
+    sub_role: Executive Team
     avatar: supriya.jpg
     email: 210020054@iitdh.ac.in
     instagram: sup_27__
     linkedin: Supriya H
-    description: I'm a member of executive team. You can reach me out anytime, I can be your voice.
+    bio: You can reach out to anytime, I can be your voice.
   varshitha:
     display_name: Hema Varshitha Bandi
     short_name: Varshitha
+    sub_role: Content Team
     avatar: varshitha.jpg
     email: 210020005@iitdh.ac.in
     instagram: varshitha.bandi
     linkedin: Hema Varshitha Bandi
-    description: Hello! I'm Varshitha, a member of the content team at Drishti who is enthusiastic about producing engaging and informative content.
+    bio: Enthusiastic about producing engaging and informative content.
   pushpa:
     display_name: Pushpa Parvathi Battina
     short_name: Pushpa
+    sub_role: Content Team
     avatar: pushpa.jpg
     email: 210010009@iitdh.ac.in
     instagram: pushpa_battina04
     linkedin: parvathi-battina
-    description: Hello, I'm Pushpa, a Content Team Member, with a passion for writing and creating captivating and engaging content for the club.
+    bio: Passionate about writing and creating captivating and engaging content for the club.
   upo:
     display_name: Upakramanika
     short_name: Upo
+    sub_role: Design Team
     avatar: upo.png
     email: upakramanika@gmail.com
     instagram: _thequestionmark_
     linkedin: upakramanika-bishnu-339901254
-    description: A self taught digital artist with a keen interest in learning all about design.
+    bio: A self taught digital artist with a keen interest in learning all about design.
   lavanya:
     display_name: Lavanya Shende
     short_name: Lavanya
+    sub_role: Executive Team
     avatar: lavanya.jpg
     email: 220120022@iitdh.ac.in
     instagram: lavanya_shende
     linkedin: shende-lavanya-jayant-85a870258
-    description: Hi from an executive member. Raising voices as a part of this team. Good with racquet. Will meet you on the dance floor.
+    bio: Raising voices as a part of this team. Good with racquet. Will meet you on the dance floor.
 
 # Roles
 roles:
@@ -117,16 +129,16 @@ roles:
   - role: Editors
     members:
       - pushpa
+      - sid
+      - supriya
       - varshitha
       
-      - supriya
-      - yash
-      - lavanya
-
-      - sid
       - atharva
+      - lavanya
       - mahesh
       - upo
+      - yash
+
 
 # Plugins
 plugins:
