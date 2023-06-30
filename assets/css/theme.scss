@@ -34,10 +34,25 @@ img {
     max-width:100%;
     height:auto;
 }
-
 h1,h2,h3,h4,h5,h6 {
     font-weight:700;
 }
+th, td {
+    padding: 15px;
+    text-align: left;
+}
+th {
+    background-color: #00d9b1;
+    color: white;
+}
+tr:nth-child(even) {
+    background-color: #e6e6e6;
+}
+
+.toprule {
+    border-top: 3px solid rgba(17,17,17,.15);
+}
+
 .site-content {
     padding-top:50px;
 }
