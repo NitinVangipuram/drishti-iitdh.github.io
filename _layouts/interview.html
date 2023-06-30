@@ -6,7 +6,7 @@ post_class: post-template
 ---
 <div class="entry-header">
 	<!-- Series -->
-	<h4 class="text-capitalize text-secondary"><a class="text-capitalize text-secondary" href="{{site.baseurl}}/series#{{ page.category }}">{{ page.category }}</a> #{{page.post}}</h4>
+	<h4 class="text-capitalize text-secondary"><a class="text-capitalize text-secondary" href="{{site.baseurl}}/series#{{ page.category | replace: " ", "-" }}">{{ page.category }}</a> #{{page.post}}</h4>
 	<!-- Post Title -->
 	<h1 class="posttitle">{{ page.title }}</h1>
 	<!-- Author & Date Box -->
