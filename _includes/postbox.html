@@ -16,6 +16,9 @@
             </a>
         </div>
         <div class="card-body">
+            {% if post.category %}
+            <h4 class="card-subtitle text-capitalize text-secondary"><a class="text-capitalize text-secondary" href="{{site.baseurl}}/series#{{ post.category | replace: " ", "-" }}">{{ post.category }}</a></h4>
+            {% endif %}
             <h2 class="card-title">
                 <a class="text-dark" href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a>
                 {% if post.rating %}
