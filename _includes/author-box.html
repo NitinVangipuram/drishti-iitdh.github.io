@@ -3,7 +3,7 @@
 {% if page.authors %}
 <div class="authorbox">
 	<h4>Written by</h4>
-	{% for id in page.interviewers %}
+	{% for id in page.authors %}
 	{% assign author = site.team[id] %}
 	<div class="row my-5 py-2">
 		<div class="wrapavname col-md-3 text-center">
