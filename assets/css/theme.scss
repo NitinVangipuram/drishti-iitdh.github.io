@@ -766,4 +766,10 @@ body.active-side {
             height:35px;
         }
     }
+    .search-bar{
+        width: 150px;
+        &:focus {
+            width: 250px;
+        }
+    }
 }
