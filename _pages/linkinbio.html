@@ -7,16 +7,15 @@ comments: false
 ---
 
 <div class="container my-5">
-	<div class="row my-3">
-		<button class="btn btn-dark btn-block" onclick="window.location.href='https://drishti-iitdh.github.io/alum-corner-ganesh/'">
-			Alum Corner #1: Navigating College: Lessons, Challenges, and Unforgettable Moments
-		</button>
-	</div>
-	<div class="row my-3">
-		<button class="btn btn-dark btn-block" onclick="window.location.href='https://drishti-iitdh.github.io/scholar-insights-jiro/'">
-			Scholar Insights #1: From Science Fiction to Real-World Impact: Jiro Karlo's Inspirational Research
-		</button>
-	</div>
+	{% for post in site.posts %}
+		{% if post.ignore != true %}
+		<div class="row my-3">
+			<button class="btn btn-dark btn-block" onclick="window.location.href='{{ post.url }}'">
+				{{ post.category }} #{{ post.post }}: {{ post.title }}
+			</button>
+		</div>
+		{% endif %}
+	{% endfor %}
 	<div class="row my-3">
 		<button class="btn btn-dark btn-block" onclick="window.location.href='https://drive.google.com/file/d/1_xpEf_20mV47oAoORDFaDr5xSb_pSTd3/view'">
 			Academic Rulebook
