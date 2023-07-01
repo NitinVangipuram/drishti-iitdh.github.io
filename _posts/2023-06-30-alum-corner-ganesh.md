@@ -7,7 +7,7 @@ post: 1
 interviewees: [ Ganesh Samarth ]
 title:  "Navigating College: Lessons, Challenges, and Unforgettable Moments"
 image: assets/images/posts/alum-corner-ganesh.png
-description: Ganesh Samarth is a 2016 batch graduate of the Department of Electrical Engineering. In this piece, he reflects on the ups and downs of his college life, along with sharing valuable insights and experiences worth learning from.
+description: Ganesh Samarth is a batch of 2020 graduate of the Department of Electrical Engineering. In this piece, he reflects on the ups and downs of his college life, along with sharing valuable insights and experiences worth learning from.
 tags: [ Alumni, Interview ]
 ---
 
