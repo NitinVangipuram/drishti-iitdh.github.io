@@ -7,7 +7,7 @@ interviewers: [ subham, supriya, lavanya ]
 editors: [ varshitha, pushpa ]
 category: Scholar Insights
 tags: [ Post Grad, Interview ]
-image: assets/images/posts/template.jpg
+image: assets/images/posts/scholar-insights-jiro.png
 description: Jiro Karlo is currently pursuing his 2nd year of Ph.D. in Integrated Biophotonics Lab, Department of Bioscience and Bioengineering, IIT Dharwad under the supervision of Dr. Surya Pratap Singh with an Institute fellowship (Teaching Assistantship).
 ---
 
