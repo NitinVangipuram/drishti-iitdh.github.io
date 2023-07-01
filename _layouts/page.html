@@ -2,11 +2,13 @@
 layout: default
 ---
 
+{% if page.header != false %}
 <div class="page-single">
     <div class="entry-header my-5">       
         <h1 class="posttitle">{{ page.title }}</h1>        
     </div>
 </div>
+{% endif %}
 
 <!-- Featured Image -->
 {% include featured-image.html %}
