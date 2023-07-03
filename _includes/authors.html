@@ -1,0 +1,29 @@
+{% if site.authorbox == "enabled" %}
+{% if page.authors %}
+<div class="authorbox">
+	<h4>Written by</h4>
+	{% for id in page.authors %}
+	{% assign author = site.team[id] %}
+	{% include author-box.html %}
+	{% endfor %}
+</div>
+{% endif %}
+{% if page.interviewers %}
+<div class="authorbox">
+	<h4>Interviewed by</h4>
+	{% for id in page.interviewers %}
+	{% assign author = site.team[id] %}
+	{% include author-box.html %}
+	{% endfor %}
+</div>
+{% endif %}
+{% if page.editors %}
+<div class="authorbox">
+	<h4>Edited by</h4>
+	{% for id in page.editors %}
+	{% assign author = site.team[id] %}
+	{% include author-box.html %}
+	{% endfor %}
+</div>
+{% endif %}
+{% endif %}
