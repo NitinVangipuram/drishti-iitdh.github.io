@@ -22,10 +22,11 @@
 	</div>
 	
 	{% assign maxRelated = 3 %}
-	{% assign minCommonTags =  1 %}
 	{% assign maxRelatedCounter = 0 %}
 	{% assign posts = site.posts | where_exp: "post", "post.url != page.url" | sort: 'date' %}
 	<div class="blog-grid-container">
+		<!-- Same Series -->
+		{% assign minCommonTags =  1 %}
 		{% for post in posts %}
 		
 			{% assign sameTagCount = 0 %}
@@ -50,6 +51,8 @@
 		
 		{% endfor %}
 		
+		<!-- Same Tags -->
+		{% assign minCommonTags =  1 %}
 		{% if maxRelatedCounter < maxRelated %}
 			{% for post in posts %}
 			
@@ -76,6 +79,7 @@
 			{% endfor %}
 		{% endif %}
 
+		<!-- Else Latest -->
 		{% if maxRelatedCounter < maxRelated %}
 			{% for post in posts %}
 
