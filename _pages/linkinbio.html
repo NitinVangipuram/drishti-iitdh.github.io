@@ -11,7 +11,10 @@ comments: false
 		{% if post.ignore != true %}
 		<div class="row my-3">
 			<button class="btn btn-dark btn-block" onclick="window.location.href='{{ post.url }}'">
-				{{ post.category }} #{{ post.post }}: {{ post.title }}
+				{% if post.category %}
+					{{ post.category }} #{{ post.post }}: 
+				{% endif %}
+				{{ post.title }}
 			</button>
 		</div>
 		{% endif %}
