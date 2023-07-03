@@ -27,10 +27,14 @@
                 </div>
                 {% endif %}
             </h2>
+            {% if post.description %}
+            <h4 class="card-text">{{ post.description | truncatewords:50 }}</h4>
+            {% else %}
             {% if post.layout == 'interview' %}
             <h4 class="card-text">{{ post.excerpt | strip_html | truncatewords:50 }}</h4>
             {% else %}
             <p class="card-text">{{ post.excerpt | strip_html | truncatewords:30 }}</p>
+            {% endif %}
             {% endif %}
         </div>
         <div class="card-footer bg-white">
