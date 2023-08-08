@@ -47,7 +47,6 @@ team:
   atharva:
     display_name: Atharva Virendra Tijare
     short_name: Atharva
-    sub_role: Designer
     avatar: atharva.jpg
     email: atharvatijare04@gmail.com
     instagram: atharva.tijare
@@ -56,7 +55,6 @@ team:
   sid:
     display_name: Siddhartha Prasad
     short_name: Sid
-    sub_role: Designer
     avatar: siddhartha.jpg
     email: 210030033@iitdh.ac.in
     instagram: siddhartha_pd
@@ -64,7 +62,6 @@ team:
   mahesh:
     display_name: Mahesh Krishnam
     short_name: Mahesh
-    sub_role: Designer
     avatar: mahesh.webp
     email: 220120011@iitdh.ac.in
     instagram: krishnam_mahesh
@@ -74,7 +71,6 @@ team:
   yash:
     display_name: Yash Satish Kute 
     short_name: Yash
-    sub_role: Journalist
     avatar: yash.jpg
     email: yashkute762@gmail.com
     instagram: yash2805k
@@ -83,7 +79,6 @@ team:
   supriya:
     display_name: Supriya H
     short_name: Supriya
-    sub_role: Journalist
     avatar: supriya.jpg
     email: 210020054@iitdh.ac.in
     instagram: sup_27__
@@ -92,7 +87,6 @@ team:
   varshitha:
     display_name: Hema Varshitha Bandi
     short_name: Varshitha
-    sub_role: Editor
     avatar: varshitha.jpg
     email: 210020005@iitdh.ac.in
     instagram: varshitha.bandi
@@ -101,7 +95,6 @@ team:
   pushpa:
     display_name: Pushpa Parvathi Battina
     short_name: Pushpa
-    sub_role: Editor
     avatar: pushpa.jpg
     email: 210010009@iitdh.ac.in
     instagram: pushpa_battina04
@@ -110,7 +103,6 @@ team:
   upo:
     display_name: Upakramanika
     short_name: Upo
-    sub_role: Designer
     avatar: upo.png
     email: upakramanika@gmail.com
     instagram: _thequestionmark_
@@ -119,12 +111,20 @@ team:
   lavanya:
     display_name: Lavanya Shende
     short_name: Lavanya
-    sub_role: Journalist
     avatar: lavanya.jpg
     email: 220120022@iitdh.ac.in
     instagram: lavanya_shende
     linkedin: shende-lavanya-jayant-85a870258
     bio: Immersed in the captivating world of storytelling, I amplify the voices and stories on college campus.
+  mukta:
+    display_name: Mukta Vedpathak
+    short_name: Mukta
+    avatar: mukta.jpg
+    bio: An amateur and avid writer, here to serve you all the crisp updates and stories around, with a pinch of creativity! 
+    twitter: MuktaVedpathak
+    instagram: _mukta_vedpathak_29
+    linkedin: mukta-vedpathak-1152a8250
+    email: muktavedpathak29@gmail.com
 
 # Roles
 roles:
@@ -136,15 +136,19 @@ roles:
   - role: Editors
     members:
       - pushpa
-      - sid
-      - supriya
       - varshitha
-      
-      - atharva
+      - mukta
+  - role: Journalists
+    members:
+      - supriya
+      - yash
       - lavanya
+  - role: Designers
+    members:
+      - sid
+      - atharva
       - mahesh
       - upo
-      - yash
 
 
 # Plugins
