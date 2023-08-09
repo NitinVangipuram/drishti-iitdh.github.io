@@ -5,7 +5,7 @@ category: Fresher's Primer '23
 post: 1
 title:  "Embracing New Horizons: A Freshman's Guide to IIT Dharwad"
 image: assets/images/posts/campus-gate.png
-tags: [ Fresher's Guide, Blog ]
+tags: [ Freshers ]
 --- 
 
 To our newcomers of '23,
