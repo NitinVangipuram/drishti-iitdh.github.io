@@ -4,7 +4,7 @@ authors: [ yash, varshitha ]
 category: Fresher's Primer '23
 post: 2
 title:  "Life on Campus: A Closer Look"
-image: assets/images/posts/intern-diaries-raghav.png
+image: assets/images/posts/admin-block.png
 description: "Summarizing life at IIT-DH is a challenge, as it offers a unique and personalized experience for each individual. Our article provides a lighthearted glimpse into some of our encountered and witnessed experiences, reminding us that at IIT-DH, the possibilities are limitless, promising an extraordinary journey for all who step inside."
 tags: [ Freshers ]
 ---
