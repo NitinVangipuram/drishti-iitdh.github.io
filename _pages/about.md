@@ -10,5 +10,5 @@ image: assets/images/team.png
 
 Established in early 2023, Drishti replaced the former unofficial student media body "Volkstimme". With the transtion came a complete rebranding of the media body, with a new logo and a new website. However, the core values of the media body remained the same, to educate, involve, and empower students through journalism.
 
-<a target="_blank" href="https://bootstrapstarter.com/jekyll-theme-memoirs/" class="btn btn-dark"> Check out our latest posts! &rarr;</a>
+<a target="_blank" href="https://drishti-iitdh.github.io" class="btn btn-dark"> Check out our latest posts! &rarr;</a>
 
