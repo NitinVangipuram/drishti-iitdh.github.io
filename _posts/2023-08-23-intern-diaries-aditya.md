@@ -5,7 +5,7 @@ post: 2
 interviewees: [ Aditya Kalyani ]
 title: "Journey Amidst Chips and Codes: Navigating the Technological Terrain"
 image: assets/images/posts/intern-diaries-aditya.png
-description: Aditya Kalyani, an accomplished 4th-year undergraduate specializing in Electrical Engineering, shares his insightful journey of a summer internship at Texas Instruments in Bangalore, Karnataka. Throughout this transformative tenure, Aditya played a pivotal role in crafting an innovative tool known as "SPEDIG (SPEctre-based timing check for hand-crafted DIGital).
+description: Aditya Kalyani, a 4th-year undergraduate specializing in Electrical Engineering, shares his insightful journey of a summer internship at Texas Instruments in Bangalore, Karnataka. Throughout this transformative tenure, Aditya played a pivotal role in crafting an innovative tool known as "SPEDIG (SPEctre-based timing check for hand-crafted DIGital).
 tags: [ Interview, Summer Internship, Bangalore, Texas Instruments ]
 ---
 
