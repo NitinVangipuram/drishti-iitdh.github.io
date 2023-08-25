@@ -1,13 +1,13 @@
 # Site
 name: "Drishti"
 title: "Drishti"
-description: ""  
-logo: 'assets/images/logo-dark.png'
-logo-full: 'assets/images/logo-dark-full.png'
-favicon: 'assets/images/logo-dark.png'
-baseurl: ''
-google_analytics: 'G-577MRTS9CK'
-disqus: 'drishti-iitdh'
+description: ""
+logo: "assets/images/logo-dark.png"
+logo-full: "assets/images/logo-dark-full.png"
+favicon: "assets/images/logo-dark.png"
+baseurl: ""
+google_analytics: "G-577MRTS9CK"
+disqus: "drishti-iitdh"
 # mailchimp-list: ''
 include: ["_pages"]
 permalink: /:title/
@@ -69,7 +69,7 @@ team:
     twitter: Krishnam_Mahesh
     bio: From Patna, Bihar. Exploring the infinite possibilities.
   yash:
-    display_name: Yash Satish Kute 
+    display_name: Yash Satish Kute
     short_name: Yash
     avatar: yash.jpg
     email: yashkute762@gmail.com
@@ -120,12 +120,48 @@ team:
     display_name: Mukta Vedpathak
     short_name: Mukta
     avatar: mukta.jpg
-    bio: An amateur and avid writer, here to serve you all the crisp updates and stories around, with a pinch of creativity! 
+    bio: An amateur and avid writer, here to serve you all the crisp updates and stories around, with a pinch of creativity!
     twitter: MuktaVedpathak
     instagram: _mukta_vedpathak_29
     linkedin: mukta-vedpathak-1152a8250
     email: muktavedpathak29@gmail.com
-
+pastteam:
+  memb1:
+    display_name: Member1
+    short_name: Memb1
+    sub_role: subrole1
+    # avatar: memb1.jpg
+    email: rollno@iitdh.ac.in
+    bio: Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged
+    instagram: Memb1
+    twitter: Memb1
+  memb2:
+    display_name: Member2
+    short_name: Memb2
+    sub_role: subrole2
+    # avatar: memb2.jpg
+    email: rollno@iitdh.ac.in
+    bio: Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged
+    twitter: Memb2
+    instagram: Memb2
+  memb3:
+    display_name: Member3
+    short_name: Memb3
+    sub_role: subrole3
+    # avatar: memb3.png
+    email: rollno@iitdh.ac.in
+    bio: Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged
+    twitter: Memb3
+    instagram: Memb3
+  memb4:
+    display_name: Member4
+    short_name: Memb4
+    sub_role: subrole4
+    # avatar: memb4.jpg
+    email: rollno@iitdh.ac.in
+    bio: Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged
+    twitter: Memb4
+    instagram: Memb4
 # Roles
 roles:
   - role: Chief Editors
@@ -149,8 +185,21 @@ roles:
       - atharva
       - mahesh
       - upo
+pastroles:
+  - role: Role1
+    members:
+      - memb1
+  - role: Role2
+    members:
+      - memb2
 
-
+  - role: Role3
+    members:
+      - memb3
+  - role: Role4
+    members:
+      - memb4
+      - memb2
 # Plugins
 plugins:
   - jekyll-paginate
@@ -159,27 +208,25 @@ plugins:
   - jekyll-seo-tag
   - jekyll-archives
   - jekyll-figure
-    
+
 # Archives
 jekyll-archives:
   enabled:
     - categories
   layout: archive
   permalinks:
-    category: '/category/:name/'
-    
-# Pagination 
+    category: "/category/:name/"
+
+# Pagination
 paginate: 6
 paginate_path: /page:num/
-    
+
 # Other
 highlighter: none
 markdown: kramdown
 kramdown:
-   syntax_highlighter_opts:
-      disable : true
-
-
+  syntax_highlighter_opts:
+    disable: true
 
 # Adsense (change to "enabled" to activate, also your client id and ad slot. Create a new ad unit from your Adsense account to get the slot.)
 adsense: "disabled"
